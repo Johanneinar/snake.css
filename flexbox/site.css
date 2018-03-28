@@ -93,3 +93,16 @@
 /* Add styles for section-7 */
 
 /* Add styles for section-8 */
+.section-8 {
+    display:flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+.section-8 .flex-item:first-child {
+    flex-basis: 100%
+}
+
+.section-8 .flex-item {
+    flex-basis: 20%
+}
