@@ -36,7 +36,29 @@
     flex-grow: 1;
 }
 /* Add styles for section-3 */
+.section-3{
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: start;
+  height:125px;
+}
 
+.section-3  .flex-item{
+  width: 200px;
+  height: 50px;
+  flex-basis: 34%;
+  margin:0px;
+}
+.section-3 .flex-item:first-child{
+  height: 100px !important;
+  width: 350px !important;
+  flex-basis: 68%;
+}
+.section-3 .flex-item:last-child{
+  height: 100px !important;
+  width: 350px !important;
+  flex-basis: 68%;
+}
 /* Add styles for section-4 */
 
 /* Add styles for section-5 */
