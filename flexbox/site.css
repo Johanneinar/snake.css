@@ -84,7 +84,12 @@
 }
 
 /* Add styles for section-6 */
-
+.section-6{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: last baseline;
+  flex-direction: row-reverse;
+}
 /* Add styles for section-7 */
 
 /* Add styles for section-8 */
