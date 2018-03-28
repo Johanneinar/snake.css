@@ -8,15 +8,15 @@
     justify-content: center;
 }
 
-.section-1 > .flex-item:nth-child(even){
+.section-1 .flex-item:nth-child(even){
     flex-grow: 1;
 }
 
-.section-1 > .flex-item:nth-child(odd){
+.section-1 .flex-item:nth-child(odd){
     flex-grow: 2;
 }
 
-.section-1 > .flex-item{
+.section-1 .flex-item{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,12 +25,12 @@
 .section-2 {
     flex-direction: column-reverse;
 }
-.section-2 > .flex-item:nth-child(1){
+.section-2 .flex-item:nth-child(1){
     align-self: flex-start;
     width: 50%;
     flex-grow: 1;
 }
-.section-2 > .flex-item:nth-child(5){
+.section-2 .flex-item:nth-child(5){
     align-self: flex-end;
     width: 50%;
     flex-grow: 1;
@@ -60,7 +60,17 @@
   flex-basis: 68%;
 }
 /* Add styles for section-4 */
+.section-4 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
 
+.section-4 .flex-item{
+    height: 60px;
+    width: 100px;
+}
 /* Add styles for section-5 */
 
 /* Add styles for section-6 */
