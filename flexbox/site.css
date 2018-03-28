@@ -91,7 +91,35 @@
   flex-direction: row-reverse;
 }
 /* Add styles for section-7 */
+.section-7 {
+    flex-flow: column wrap-reverse;
+    justify-content: center;
+    align-content: space-between;
+}
 
+.section-7 .carebear-blue {
+    order: 3;
+    flex-basis: 25%;
+}
+
+.section-7 .carebear-green {
+    order: 2;
+    flex-basis: 25%;
+}
+
+.section-7 .carebear-red {
+    order: 1;
+    flex-basis: 25%;
+}
+
+.section-7 .carebear-pink {
+    order: 5;
+}
+
+.section-7 .carebear-yellow {
+    order: 4;
+    flex-basis: 25%;
+}
 /* Add styles for section-8 */
 .section-8 {
     display:flex;
