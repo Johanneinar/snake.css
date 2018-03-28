@@ -39,25 +39,20 @@
 .section-3{
   flex-direction: column;
   flex-wrap: wrap;
-  align-content: start;
+  align-content: stretch;
   height:125px;
 }
 
 .section-3  .flex-item{
-  width: 200px;
-  height: 50px;
-  flex-basis: 34%;
-  margin:0px;
+  flex-basis: 50%;
 }
 .section-3 .flex-item:first-child{
-  height: 100px !important;
-  width: 350px !important;
-  flex-basis: 68%;
+  flex-grow: 1;
+  flex-basis: 100%;
 }
 .section-3 .flex-item:last-child{
-  height: 100px !important;
-  width: 350px !important;
-  flex-basis: 68%;
+  flex-grow: 1;
+  flex-basis: 100%;
 }
 /* Add styles for section-4 */
 .section-4 {
