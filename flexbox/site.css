@@ -20,10 +20,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 /* Add styles for section-2 */
-
+.section-2 {
+    flex-direction: column-reverse;
+}
+.section-2 > .flex-item:nth-child(1){
+    align-self: flex-start;
+    width: 50%;
+    flex-grow: 1;
+}
+.section-2 > .flex-item:nth-child(5){
+    align-self: flex-end;
+    width: 50%;
+    flex-grow: 1;
+}
 /* Add styles for section-3 */
 
 /* Add styles for section-4 */
